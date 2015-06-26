@@ -31,6 +31,11 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+/* Custom CSS */
+.bold-spans span {
+  font-weight:bold;
+}
+
 /* Customize container */
 @media (min-width: 768px) {
   .container {

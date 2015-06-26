@@ -8,26 +8,26 @@
 <div class="row marketing">
   <p>Thanks Kurtosys team!</p>
   <hr>
-  <div class="bold-paragraphs" ng-repeat="fund in funds">
-    <p>Fund Name: {{fund["Fund Name"] | ksFormatFundData:'false'}}</p>
-    <p>Security: {{fund["security"] | ksFormatFundData:'false'}}</p>
-    <p>Sector: {{fund["Sector"] | ksFormatFundData:'false'}}</p>
-    <p>Asset Class: {{fund["Asset Class"] | ksFormatFundData:'false'}}</p>
-    <p>Investment Style: {{fund["Investment Style"] | ksFormatFundData:'false'}}</p>
-    <p>Launch Date: {{fund["Launch Date"] | ksDate: 'dd/MM/yyyy':'/' | date:'dd.MM.yyyy'}}</p>
-    <p>Morningstar Rating: {{fund["Morningstar Rating"] | ksFormatFundData:'false'}}</p>
-    <p>NAV: {{fund["NAV"] | ksFormatFundData:'true'}}</p>
-    <p>NAV Change: {{fund["NAV Change"] | ksFormatFundData:'true'}}</p>
-    <p>1 Day Return: {{fund["1 Day Return"] | ksFormatFundData:'true'}}</p>
-    <p>YTD Return: {{fund["YTD Return"] | ksFormatFundData:'true'}}</p>
-    <p>Fund Size: {{fund["Fund Size"] | ksFormatFundData:'true'}}</p>
-    <p>Region: {{fund["Region"] | ksFormatFundData:'false'}}</p>
-    <p>Currency: {{fund["Currency"] | ksFormatFundData:'false'}}</p>
-    <p>Ticker Symbol: {{fund["Ticker Symbol"] | ksFormatFundData:'false'}}</p>
-    <p>Total Returns: {{fund["Total Returns"] | ksFormatFundData:'true'}}</p>
-    <p>Average Annual Returns: {{fund["Average Annual Returns"] | ksFormatFundData:'true'}}</p>
-    <p>Yield: {{fund["Yield"] | ksFormatFundData:'true'}}</p>
-    <p>Date: {{fund["Date"] | ksDate: 'dd/MM/yyyy':'/' | date:'dd.MM.yyyy'}}</p>
+  <div class="bold-spans" ng-repeat="fund in funds">
+    <p><span>Fund Name:</span> {{fund["Fund Name"] | ksFormatFundData:'false'}}</p>
+    <p><span>Security:</span> {{fund["security"] | ksFormatFundData:'false'}}</p>
+    <p><span>Sector:</span> {{fund["Sector"] | ksFormatFundData:'false'}}</p>
+    <p><span>Asset Class:</span> {{fund["Asset Class"] | ksFormatFundData:'false'}}</p>
+    <p><span>Investment Style:</span> {{fund["Investment Style"] | ksFormatFundData:'false'}}</p>
+    <p><span>Launch Date:</span> {{fund["Launch Date"] | ksDate: 'dd/MM/yyyy':'/' | date:'dd.MM.yyyy'}}</p>
+    <p><span>Morningstar Rating:</span> {{fund["Morningstar Rating"] | ksFormatFundData:'false'}}</p>
+    <p><span>NAV:</span> {{fund["NAV"] | ksFormatFundData:true}}</p>
+    <p><span>NAV Change:</span> {{fund["NAV Change"] | ksFormatFundData:true}}</p>
+    <p><span>1 Day Return:</span> {{fund["1 Day Return"] | ksFormatFundData:true}}</p>
+    <p><span>YTD Return:</span> {{fund["YTD Return"] | ksFormatFundData:true}}</p>
+    <p><span>Fund Size:</span> {{fund["Fund Size"] | ksFormatFundData:true}}</p>
+    <p><span>Region:</span> {{fund["Region"] | ksFormatFundData:'false'}}</p>
+    <p><span>Currency:</span> {{fund["Currency"] | ksFormatFundData:'false'}}</p>
+    <p><span>Ticker Symbol:</span> {{fund["Ticker Symbol"] | ksFormatFundData:'false'}}</p>
+    <p><span>Total Returns:</span> {{fund["Total Returns"] | ksFormatFundData:true}}</p>
+    <p><span>Average Annual Returns:</span> {{fund["Average Annual Returns"] | ksFormatFundData:true}}</p>
+    <p><span>Yield:</span> {{fund["Yield"] | ksFormatFundData:true}}</p>
+    <p><span>Date:</span> {{fund["Date"] | ksDate: 'dd/MM/yyyy':'/' | date:'dd.MM.yyyy'}}</p>
   </div>
 </div>
 

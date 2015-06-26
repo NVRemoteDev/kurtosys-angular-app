@@ -17,7 +17,7 @@
     return function (str, isNumber) {
       if (!str) return '--';
 
-      if (isNumber) return str.toLocaleString();
+      if (isNumber === true) return str.toLocaleString();
 
       return str;
     };

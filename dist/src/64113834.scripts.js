@@ -1,0 +1,1 @@
+"use strict";angular.module("ksAngularApp",["ngCookies","ngResource","ngSanitize","ngRoute"]).config(function($routeProvider){$routeProvider.when("/",{templateUrl:"src/common/views/main.html",controller:"MainCtrl"}).otherwise({redirectTo:"/"})}),angular.module("ksAngularApp").controller("MainCtrl",function($scope){$scope.awesomeThings=["HTML5 Boilerplate","AngularJS","Karma"]});
